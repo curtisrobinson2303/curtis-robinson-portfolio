@@ -12,7 +12,7 @@ const myFont = localFont({ src: "./mu-font.woff2" });
 export default function App({ Component, pageProps }) {
   return (
     <main className={cabin.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   );
 }

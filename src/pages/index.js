@@ -21,7 +21,6 @@ export default function Home() {
           </div>
           <h1>CURTIS ROBINSON</h1>
         </div>
-
         <div className="spacer"></div>
         <div className="landing-subtitle">
           <h2>Engineer Leader Dreamer</h2>
@@ -52,7 +51,7 @@ export default function Home() {
         <div className="spacer"></div>
         <div className="welcome-space">
           <div className="welcome-space-container">
-            <h1>Hi, welcome to my portfolio!</h1>
+            <h1>Welcome </h1>
             <div className="welcome-space-container-image">
               <Image
                 src={"/professionalPic2.JPG"}
@@ -62,19 +61,9 @@ export default function Home() {
               />
             </div>
             <h2>
-              Check out my projects, experience, and learn a little about my
-              life.
+              Check out my projects, work experience, and learn about my
+              passions!
             </h2>
-          </div>
-        </div>
-
-        <div className="spacer"></div>
-
-        <div className="white-space">
-          <div className="white-space-container">
-            <Link href="/about-me" className="learnMoreButton">
-              LEARN MORE
-            </Link>
           </div>
         </div>
 
@@ -237,10 +226,7 @@ export default function Home() {
           <div className="contact-me">
             <div className="contact-me-container">
               <h1>CONTACT ME</h1>
-              <h3>
-                Here are my social and resourse links! Feel free to check them
-                out.
-              </h3>
+              <h3>Feel free to contact me and checkout my work down below!</h3>
             </div>
           </div>
           <div className="spacer"></div>
@@ -249,12 +235,13 @@ export default function Home() {
             className="socialLinksButton"
           >
             <div className="contact-me-element">
-              <Image
+              <h1>GITHUB</h1>
+              {/* <Image
                 src={"/GitHub_Logo.png"}
                 width={500}
                 height={1000}
                 alt="githublogo"
-              />
+              /> */}
             </div>
           </Link>
           <div className="spacer"></div>
@@ -263,23 +250,25 @@ export default function Home() {
             className="socialLinksButton"
           >
             <div className="contact-me-element">
-              <Image
+              <h1>LINKEDIN</h1>
+              {/* <Image
                 src={"/LI-Logo.png"}
                 width={500}
                 height={1000}
                 alt="linkedinlogo"
-              />
+              /> */}
             </div>
           </Link>
           <div className="spacer"></div>
           <Link href="" className="socialLinksButton">
             <div className="contact-me-element">
-              <Image
+              <h1>EMAIL</h1>
+              {/* <Image
                 src={"/mailicon.png"}
                 width={100}
                 height={1000}
                 alt="mailicon"
-              />
+              /> */}
             </div>
           </Link>
         </div>
