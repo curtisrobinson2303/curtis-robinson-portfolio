@@ -7,7 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
-        <Nav />
+        {/* <Nav /> */}
         <div className="wrapper">
           <Main />
         </div>

@@ -5,13 +5,19 @@ import { Nav } from "../components/Nav";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const CustomImage = ({ src, alt, objectFit = "cover" }) => {
+  return <Image src={src} fill={true} objectFit={objectFit} alt={alt} />;
+};
+
 export default function Home() {
   return (
-    <div id="top">
-      <main>
+    <div id="top" className="top">
+      <Nav></Nav>
+
+      <div className="content">
         <div className="landing-name">
           <div className="landing-name-image">
-            <Image src={"/crlogo.png"} width={300} height={300} alt="crlogo" />
+            <CustomImage src={"/crlogo.png"} alt="crlogo" objectFit="contain" />
           </div>
           <h1>CURTIS ROBINSON</h1>
         </div>
@@ -24,47 +30,22 @@ export default function Home() {
         <div className="photo-space">
           <div className="photo-space-container">
             <div className="photo-space-container-image">
-              <Image
-                src={"/positano.JPG"}
-                width={1000}
-                height={1000}
-                alt="positano"
-              />
+              <CustomImage src={"/positano.JPG"} alt="positano" />
             </div>
             <div className="photo-space-container-image">
-              <Image
-                src={"/interlaken.JPG"}
-                width={1000}
-                height={1000}
-                alt="interlaken"
-              />
+              <CustomImage src={"/interlaken.JPG"} alt="interlaken" />
             </div>
             <div className="photo-space-container-image">
-              <Image src={"/scdi.jpeg"} width={1000} height={1000} alt="scdi" />
+              <CustomImage src={"/scdi.jpeg"} alt="scdi" />
             </div>
             <div className="photo-space-container-image">
-              <Image
-                src={"/dronemttam.jpeg"}
-                width={1000}
-                height={1000}
-                alt="dronemttam"
-              />
+              <CustomImage src={"/dronemttam.jpeg"} alt="dronemttam" />
             </div>
             <div className="photo-space-container-image">
-              <Image
-                src={"/mttamsunset.jpeg"}
-                width={1000}
-                height={1000}
-                alt="mttamsunset"
-              />
+              <CustomImage src={"/mttamsunset.jpeg"} alt="mttamsunset" />
             </div>
             <div className="photo-space-container-image">
-              <Image
-                src={"/hawaiisunsethike.png"}
-                width={1000}
-                height={1000}
-                alt="hawaiihike"
-              />
+              <CustomImage src={"/hawaiisunsethike.png"} alt="hawaiihike" />
             </div>
           </div>
         </div>
@@ -105,17 +86,17 @@ export default function Home() {
               <h1>ABOUT ME</h1>
               <div className="line"></div>
               <h3>
-                🚀 I&#39m Curtis, a 3rd-year student at Santa Clara University
+                🚀 I&#39;m Curtis, a 3rd-year student at Santa Clara University
                 pursuing a degree in Electrical & Computer Engineering. My
                 passion lies in driving innovation in the world of technology,
-                and I&#39m always ready to embrace the cutting edge. From
-                Artificial Intelligence to Quantum Computing, I&#39m excited by
+                and I&#39;m always ready to embrace the cutting edge. From
+                Artificial Intelligence to Quantum Computing, I&#39;m excited by
                 it all. I have a knack for transforming ideas into reality, be
                 it through designing computer hardware or crafting software
-                solutions. It&#39s the thrill of creation that keeps me going.
+                solutions. It&#39;s the thrill of creation that keeps me going.
                 As we navigate this ever-evolving tech landscape, I believe in
                 the power of connection and collaboration. If you share my
-                enthusiasm for shaping the future of technology, let&#39s
+                enthusiasm for shaping the future of technology, let&#39;s
                 connect and make a difference together. Feel free to explore
                 some of my projects and ideas at curtisrobinson.co and join me
                 on this exhilarating journey!
@@ -137,28 +118,13 @@ export default function Home() {
           <div className="threeThings">
             <div className="threeThings-container">
               <div className="threeThings-element">
-                <Image
-                  src={"/dronemttam.jpeg"}
-                  width={1000}
-                  height={1000}
-                  alt="dronemttam"
-                />
+                <CustomImage src={"/dronemttam.jpeg"} alt="dronemttam" />
               </div>
               <div className="threeThings-element">
-                <Image
-                  src={"/positanogreen.png"}
-                  width={1000}
-                  height={1000}
-                  alt="positanogreen"
-                />
+                <CustomImage src={"/positanogreen.png"} alt="positanogreen" />
               </div>
               <div className="threeThings-element">
-                <Image
-                  src={"/justdoit.JPG"}
-                  width={1000}
-                  height={1000}
-                  alt="justdoit"
-                />
+                <CustomImage src={"/justdoit.JPG"} alt="justdoit" />
               </div>
             </div>
             <div className="threeThings-container-text">
@@ -212,8 +178,8 @@ export default function Home() {
                 online presence, creating our dynamic and integrated website and
                 giving our social media identity a fresh new look. These efforts
                 helped me foster a stronger sense of community and connection
-                within our engineering circle, and I&#39m proud of the impact my
-                initiatives had on our community&#39s growth and engagement.
+                within our engineering circle, and I&#39;m proud of the impact
+                my initiatives had on our community&#39;s growth and engagement.
               </h3>
               <Image
                 src={"/NSBELogo.png"}
@@ -317,7 +283,7 @@ export default function Home() {
             </div>
           </Link>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
