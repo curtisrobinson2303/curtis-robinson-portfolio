@@ -10,8 +10,8 @@ export default function Document() {
         {/* <Nav /> */}
         <div className="wrapper">
           <Main />
+          <Footer />
         </div>
-        <Footer />
         <NextScript />
       </body>
     </Html>

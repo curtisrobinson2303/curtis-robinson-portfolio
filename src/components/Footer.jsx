@@ -1,9 +1,9 @@
 import Link from "next/link";
 export const Footer = () => {
   return (
-    <nav className="footer">
+    <div className="footer">
       <div className="footerContainer">
-        <Link href="/" className="footButton">
+        <Link href="contact-me-id" className="footButton">
           CONTACT
         </Link>
         <Link href="#top" className="footButton">
@@ -13,7 +13,6 @@ export const Footer = () => {
           SOCIAL LINKS
         </Link>
       </div>
-      {/* <Link href="/contact">Contact</Link> */}
-    </nav>
+    </div>
   );
 };
