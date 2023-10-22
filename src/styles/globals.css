@@ -7,6 +7,13 @@
   scroll-behavior: smooth;
 }
 
+/* Global Styles */
+.wrapper {
+  position: relative;
+  padding: 0px 25px 25px 25px;
+  width: fit-content;
+}
+
 .top {
   position: relative;
 }
@@ -39,12 +46,6 @@
   transition: top 0.3s;
   top: -100px;
   opacity: 1;
-}
-
-/* Global Styles */
-.wrapper {
-  position: relative;
-  padding: 0px 25px 25px 25px;
 }
 
 .linksContainer {
