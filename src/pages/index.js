@@ -139,8 +139,8 @@ export default function Home() {
           <div className="experience">
             <div className="experience-container">
               <h1>EXPERIENCE</h1>
-              <h2>Header 2</h2>
-              <h3>Header 3</h3>
+              <h2></h2>
+              <h3>DEVELOPMENT IN PROGRESS THANKS FOR YOUR PATIENCE</h3>
             </div>
           </div>
         </div>
@@ -217,8 +217,8 @@ export default function Home() {
           <div className="projects">
             <div className="projects-container">
               <h1>PROJECTS</h1>
-              <h2>Header 2</h2>
-              <h3>Header 3</h3>
+              <h2></h2>
+              <h3>DEVELOPMENT IN PROGRESS THANKS FOR YOUR PATIENCE</h3>
             </div>
           </div>
         </div>
