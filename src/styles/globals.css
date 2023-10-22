@@ -124,8 +124,8 @@
 }
 .landing-name-image {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   border-radius: 50px; /* Set border-radius to round the image corners */
 }
 
@@ -231,14 +231,14 @@
 .welcome-space-container h1 {
   font-size: 6rem;
   padding-left: 50px;
-  text-align: left;
+  text-align: center;
   color: white;
   background-color: transparent;
 }
 
 .welcome-space-container h2 {
   font-size: 4rem;
-  text-align: left;
+  text-align: center;
   padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 20px;
@@ -248,7 +248,7 @@
 
 .welcome-space-container-image {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-left: 50px;
   align-items: center;
   padding-top: 20px;

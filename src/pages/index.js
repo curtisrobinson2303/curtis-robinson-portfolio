@@ -17,9 +17,12 @@ export default function Home() {
       <div className="content">
         <div className="landing-name">
           <div className="landing-name-image">
-            <CustomImage src={"/crlogo.png"} alt="crlogo" objectFit="contain" />
+            <CustomImage
+              src={"/bannerwelcome.png"}
+              alt="crlogo"
+              objectFit="contain"
+            />
           </div>
-          <h1>CURTIS ROBINSON</h1>
         </div>
         <div className="spacer"></div>
         <div className="landing-subtitle">
