@@ -64,8 +64,8 @@ export default function Home() {
               />
             </div>
             <h2>
-              Check out my projects, work experience, and learn about my
-              passions!
+              I am happy you made it! Check out my projects, work experience,
+              and learn about my passions!
             </h2>
           </div>
         </div>
@@ -103,7 +103,11 @@ export default function Home() {
               <h1>MY LIFE</h1>
               <h2>ENERGY | CURIOSITY | PATIENCE</h2>
               <h3>
-                Three key things that drive my day to day life below and above!
+                Below are several things that motivate me each day. I love
+                nature and experiecing the crazy things that world has to offer.
+                Traveling and experiecing different cultures motivates me each
+                day and encourage me to create and develop solutions to make
+                peoples lives lower stress and easier around the world.
               </h3>
             </div>
           </div>
@@ -139,14 +143,119 @@ export default function Home() {
           <div className="experience">
             <div className="experience-container">
               <h1>EXPERIENCE</h1>
-              <h2></h2>
-              <h3>DEVELOPMENT IN PROGRESS THANKS FOR YOUR PATIENCE</h3>
             </div>
           </div>
+          <div className="spacer"></div>
+          <div className="experience-element">
+            <div className="experience-container-element">
+              <h1>Software Engineering Intern</h1>
+              <h2>Otherworld Computing Intership Summer 2023</h2>
+              <h3>
+                Throughout my internship, I gained valuable experience and
+                wisdom that have significantly contributed to my professional
+                growth. I had the opportunity to optimize driver subroutines by
+                implementing shippable Single Instruction Multiple Data (SIMD)
+                subroutines across various Instruction Set Architectures (ISA).
+                This enhanced my technical skills and deepened my understanding
+                of software optimization and the complexities between low-level
+                software and hardware. I also played a crucial role in ensuring
+                reliability testing by developing C++/C test tools to analyze
+                and debug issues with our SoftRAID application. This experience
+                honed my programming fluency in C++, C, and Assembly Language as
+                well as emphasized the importance of thorough testing in
+                software development. In summary, my internship during the
+                summer of 2023 provided me with a diverse skill set, including
+                software optimization, programming, bug tracking, and debugging
+                techniques providing invaluable experience for my career
+                development in the field of computer engineering.
+              </h3>
+              <h4>
+                ● Optimized driver subroutines by implementing shippable Single
+                Instruction Multiple Data (SIMD) subroutines on multiple
+                Instruction Set Architectures (ISA)
+              </h4>
+              <h4>
+                ● Assisted in reliability and quality assurance by developing
+                C++/C test tools for CopyThat and SoftRAID applications
+              </h4>
+              <h4>
+                ● Investigated, tracked, and logged Redundancy Array of
+                Independent Disks (RAID) software and hardware bugs utilizing
+                Atlassian tools
+              </h4>
+              <h4>
+                ● Developed driver-level debug scripts to assist with low-level
+                debugging to implement efficiency and simplicity
+              </h4>
+              <h3></h3>
+            </div>
+            <div className="experience-line"></div>
+            <div className="experience-container-element">
+              <h1>Quality Assurance Intern</h1>
+              <h2>Otherworld Computing Intership Summer 2022</h2>
+              <h3>
+                During my first year at Other World Computing, my role consisted
+                of Bug Tracking, Hardware testing for reliability, customer
+                support, and test tool programming. I worked alongside a team of
+                hardware and software engineers to debug and improve the user
+                experience and ease of use for the SoftRAID and CopyThat
+                applications. These responsibilities developed my attention to
+                detail and emphasized the importance of testing before a product
+                is shipped.
+              </h3>
+              <h4>
+                ● Worked with Atlassian Tools to track hardware and software
+                RAID system bugs.
+              </h4>
+              <h4>
+                ● Spearheaded software reliability testing prior to software &
+                hardware releases
+              </h4>
+              <h3></h3>
+            </div>
+            <div className="experience-line"></div>
+            <div className="experience-container-element">
+              <h1>Assistant Software Developer</h1>
+              <h2>VarsityPrep 2018 - 2021</h2>
+              <h3>
+                I had the opportunity to work closely with the head software
+                engineer, collaborating to enhance user experience and
+                streamline back-end communication processes utilizing Firebase.
+                This hands-on experience allowed me to develop a deeper
+                understanding of software development and problem-solving in a
+                real-world context. I gained practical experience by utilizing
+                Firebase, Xcode, and App Store Connect's cloud-based app
+                development tools for hosting and storing user data. This
+                experience expanded my skill set in app development and cloud
+                computing, providing me with valuable insights into modern
+                development practices. Throughout my experience, I played a role
+                in improving the company's branding and actively participated in
+                marketing and ad-production efforts. This allowed me to explore
+                the creative side of the industry and understand the importance
+                of effective marketing strategies. In addition to these
+                experiences, my internship provided me with the opportunity to
+                coach and mentor fellow team members, which enhanced my
+                leadership and communication skills, reinforcing the importance
+                of teamwork and collaboration in achieving project goals.
+              </h3>
+              <h4>
+                ● Collaborated with head software engineer to debug/improve user
+                experience and back-end communication processes
+              </h4>
+              <h4>
+                ● Utilized Firebase and App Store Connects cloud-based app
+                development tools for hosting and user data storage
+              </h4>
+              <h4>
+                ● Improved company branding and participated in marketing and
+                ad-production
+              </h4>
+              <h3></h3>
+            </div>
+            <div className="experience-line"></div>
+          </div>
         </div>
-
         <div className="spacer"></div>
-
         <div id="leadership-id">
           <div className="leadership">
             <div className="leadership-container">
@@ -210,21 +319,116 @@ export default function Home() {
         </div>
 
         <div className="spacer"></div>
-
         <div className="spacer"></div>
-
         <div id="projects-id">
           <div className="projects">
             <div className="projects-container">
               <h1>PROJECTS</h1>
               <h2></h2>
-              <h3>DEVELOPMENT IN PROGRESS THANKS FOR YOUR PATIENCE</h3>
+            </div>
+          </div>
+          <div className="spacer"></div>
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>Analog to Digital Converter</h1>
+            <h2>
+              In my computer engineering microprocessor system design class, I
+              worked on a fascinating project where I designed analog-to-digital
+              converters (ADCs) utilizing FPGA technology and Xilinx Vivado.
+              This project was a testament to my hands-on experience in digital
+              system design and FPGA programming. By creating custom ADCs, I
+              gained practical insights into the nuances of signal processing,
+              data conversion, and hardware design. This endeavor not only
+              broadened my understanding of microprocessor systems but also
+              honed my proficiency in FPGA development, showcasing my commitment
+              to mastering the intersection of hardware and software in the
+              field of computer engineering.
+            </h2>
+            <div className="project-button">
+              <Link
+                href="https://github.com/curtisrobinson2303/Resume-Items"
+                className="projectsButton"
+              >
+                <h1>View Project</h1>
+              </Link>
+            </div>
+          </div>
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>NSBE Chapter Website</h1>
+            <h2>
+              In my computer engineering microprocessor system design class, I
+              worked on a fascinating project where I designed analog-to-digital
+              converters (ADCs) utilizing FPGA technology and Xilinx Vivado.
+              This project was a testament to my hands-on experience in digital
+              system design and FPGA programming. By creating custom ADCs, I
+              gained practical insights into the nuances of signal processing,
+              data conversion, and hardware design. This endeavor not only
+              broadened my understanding of microprocessor systems but also
+              honed my proficiency in FPGA development, showcasing my commitment
+              to mastering the intersection of hardware and software in the
+              field of computer engineering.
+            </h2>
+            <div className="project-button">
+              <Link
+                href="https://github.com/curtisrobinson2303/Resume-Items"
+                className="projectsButton"
+              >
+                <h1>View Project</h1>
+              </Link>
+            </div>
+          </div>
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>Passive Filter Design</h1>
+            <h2>
+              During my advanced circuits class, I undertook a challenging
+              passive filter design project that underscored my proficiency in
+              circuit analysis and simulation using MATLAB. The project involved
+              creating passive filters for specific applications, demonstrating
+              my ability to navigate complex electrical circuits with precision.
+              Through rigorous analysis and meticulous MATLAB simulations, I
+              fine-tuned the filters to meet exacting requirements, showcasing
+              my skills in both theoretical and practical aspects of electrical
+              engineering. This project not only deepened my understanding of
+              circuit design but also validated my capacity to translate theory
+              into real-world solutions.
+            </h2>
+            <div className="project-button">
+              <Link
+                href="https://github.com/curtisrobinson2303/Resume-Items"
+                className="projectsButton"
+              >
+                <h1>View Project</h1>
+              </Link>
+            </div>
+          </div>
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>Data Corruption Test Tool</h1>
+            <h2>
+              During my last internship at Other World Computing, I embarked on
+              an exciting project where I developed a low-level data corruption
+              testing tool. This tool was designed to read memory from a hard
+              drive using C++ and perform hex dumping of the values. What set
+              this project apart was its ability to run comparison operations,
+              effectively detecting data corruption at the driver level in RAID
+              systems. It was a challenging yet incredibly rewarding endeavor
+              that allowed me to hone my programming skills and delve deep into
+              the intricacies of storage systems, ensuring data integrity and
+              reliability at a fundamental level.
+            </h2>
+            <div className="project-button">
+              <Link
+                href="https://github.com/curtisrobinson2303/Resume-Items"
+                className="projectsButton"
+              >
+                <h1>View Project</h1>
+              </Link>
             </div>
           </div>
         </div>
-
         <div className="spacer"></div>
-
         <div id="contact-me-id">
           <div className="contact-me">
             <div className="contact-me-container">

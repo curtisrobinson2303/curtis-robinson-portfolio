@@ -294,6 +294,13 @@
 }
 
 /* experience styles */
+
+.experience-line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
 .experience {
   padding: 25px 25px;
   width: 100%;
@@ -304,7 +311,12 @@
   transition: background-color 0.1s;
 }
 .experience-container {
-  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left side */
+  justify-content: flex-end; /* Align text to the bottom */
+  width: 100%;
+  height: 500px;
 }
 
 .experience-container h1 {
@@ -324,6 +336,51 @@
   color: white;
   background-color: transparent;
 }
+
+.experience-element {
+  padding: 25px 25px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(114, 94, 84);
+  transition: background-color 0.1s;
+}
+.experience-container-element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left side */
+  width: 100%;
+  height: auto;
+}
+
+.experience-container-element h1 {
+  padding-top: 25px;
+  font-size: 4rem;
+  color: white;
+  background-color: transparent;
+}
+
+.experience-container-element h2 {
+  font-size: 2rem;
+  color: white;
+  background-color: transparent;
+}
+
+.experience-container-element h3 {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  padding-bottom: 50px;
+}
+
+.experience-container-element h4 {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+}
+
 /* leadership styles */
 .leadership {
   padding: 25px 25px;
@@ -482,30 +539,86 @@
   height: 500px;
   display: flex;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(83, 153, 135);
   transition: background-color 0.1s;
   border: 2px solid rgb(4, 42, 43);
 }
 .projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align text to the left side */
+  justify-content: flex-end; /* Align text to the bottom */
+  width: 100%;
+  height: 100%;
 }
 
 .projects-container h1 {
   font-size: 6rem;
-  color: rgb(83, 153, 135);
+  color: white;
   background-color: transparent;
 }
 
 .projects-container h2 {
   font-size: 4rem;
-  color: rgb(83, 153, 135);
+  color: white;
   background-color: transparent;
 }
 
 .projects-container h3 {
   font-size: 2rem;
-  color: rgb(83, 153, 135);
+  color: white;
   background-color: transparent;
 }
+
+.projects-element {
+  padding: 25px 25px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.projects-element h1 {
+  font-size: 4rem;
+  color: white;
+  background-color: transparent;
+}
+
+.projects-element h2 {
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+}
+
+.project-button {
+  height: 40px;
+  border-radius: 10px;
+  display: flex; /* Add display: flex; to center the content */
+  align-items: center;
+  justify-content: center;
+}
+
+.project-button h1 {
+  font-size: 1.5rem;
+  margin: 0; /* Remove any default margin that might affect centering */
+}
+
+.projectsButton {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(114, 94, 84);
+  background-color: rgb(83, 153, 135);
+  transition: background-color 0.1s;
+  &:hover {
+    background-color: rgb(114, 94, 84);
+  }
+  animation: slide-up 1s;
+  border-radius: 10px;
+}
+
 /* contact-me styles */
 .contact-me {
   padding: 25px 25px;
