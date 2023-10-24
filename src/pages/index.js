@@ -350,7 +350,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>View Project</h1>
+                <h1>Check out my project!</h1>
               </Link>
             </div>
           </div>
@@ -375,7 +375,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>View Project</h1>
+                <h1>Check out my project!</h1>
               </Link>
             </div>
           </div>
@@ -400,7 +400,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>View Project</h1>
+                <h1>Check out my project!</h1>
               </Link>
             </div>
           </div>
@@ -424,7 +424,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>View Project</h1>
+                <h1>Check out my project!</h1>
               </Link>
             </div>
           </div>
