@@ -224,19 +224,20 @@ export default function Home() {
                 This hands-on experience allowed me to develop a deeper
                 understanding of software development and problem-solving in a
                 real-world context. I gained practical experience by utilizing
-                Firebase, Xcode, and App Store Connect's cloud-based app
+                Firebase, Xcode, and App Store Connect&#39;s cloud-based app
                 development tools for hosting and storing user data. This
                 experience expanded my skill set in app development and cloud
                 computing, providing me with valuable insights into modern
                 development practices. Throughout my experience, I played a role
-                in improving the company's branding and actively participated in
-                marketing and ad-production efforts. This allowed me to explore
-                the creative side of the industry and understand the importance
-                of effective marketing strategies. In addition to these
-                experiences, my internship provided me with the opportunity to
-                coach and mentor fellow team members, which enhanced my
-                leadership and communication skills, reinforcing the importance
-                of teamwork and collaboration in achieving project goals.
+                in improving the company&#39;s branding and actively
+                participated in marketing and ad-production efforts. This
+                allowed me to explore the creative side of the industry and
+                understand the importance of effective marketing strategies. In
+                addition to these experiences, my internship provided me with
+                the opportunity to coach and mentor fellow team members, which
+                enhanced my leadership and communication skills, reinforcing the
+                importance of teamwork and collaboration in achieving project
+                goals.
               </h3>
               <h4>
                 ● Collaborated with head software engineer to debug/improve user
