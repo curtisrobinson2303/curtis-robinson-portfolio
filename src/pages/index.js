@@ -395,6 +395,10 @@ export default function Home() {
               circuit design but also validated my capacity to translate theory
               into real-world solutions.
             </h2>
+            <h2>Skills Demonstrated:</h2>
+            <h2> - Advanced Circuit Analysis </h2>
+            <h2> - MATLAB </h2>
+            <h2> - Time Varying Signals</h2>
             <div className="project-button">
               <Link
                 href="https://github.com/curtisrobinson2303/Resume-Items"

@@ -68,7 +68,7 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: rgb(83, 153, 135);
+  color: white;
   /* Transparent background with alpha (0.1 for 10% opacity) */
   background-color: transparent;
   border-radius: 10px;
@@ -577,7 +577,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: black;
+  background-color: grey;
 }
 
 .projects-element h1 {
@@ -594,11 +594,19 @@
 }
 
 .project-button {
-  height: 40px;
+  height: 50px;
   border-radius: 10px;
   display: flex; /* Add display: flex; to center the content */
   align-items: center;
   justify-content: center;
+  background-color: rgb(83, 153, 135);
+  width: 25%;
+  transition: background-color 0.1s;
+  &:hover {
+    background-color: rgb(114, 94, 84);
+  }
+  animation: slide-up 1s;
+  border-radius: 10px;
 }
 
 .project-button h1 {
@@ -611,13 +619,6 @@
   padding-left: 20px;
   padding-right: 20px;
   color: rgb(114, 94, 84);
-  background-color: rgb(83, 153, 135);
-  transition: background-color 0.1s;
-  &:hover {
-    background-color: rgb(114, 94, 84);
-  }
-  animation: slide-up 1s;
-  border-radius: 10px;
 }
 
 /* contact-me styles */
