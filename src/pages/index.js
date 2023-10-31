@@ -16,14 +16,22 @@ export default function Home() {
 
       <div className="content">
         <div className="landing-name">
-          <div className="landing-name-image">
-            <CustomImage
-              src={"/bannerwelcome.png"}
-              alt="crlogo"
-              objectFit="contain"
-            />
+          <div className="landing-name-container">
+            <h1>CURTIS ROBINSON </h1>
           </div>
         </div>
+        <div className="spacer"></div>
+        <Link href="#projects-id" className="socialLinksButton">
+          <div className="contact-me-element">
+            <h1>PROJECTS</h1>
+            {/* <Image
+                src={"/GitHub_Logo.png"}
+                width={500}
+                height={1000}
+                alt="githublogo"
+              /> */}
+          </div>
+        </Link>
         <div className="spacer"></div>
         <div className="landing-subtitle">
           <h2>Engineer Leader Dreamer</h2>
@@ -51,25 +59,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="spacer"></div>
-        <div className="welcome-space">
-          <div className="welcome-space-container">
-            <h1>Welcome </h1>
-            <div className="welcome-space-container-image">
-              <Image
-                src={"/professionalPic2.JPG"}
-                width={250}
-                height={400}
-                alt="profilepic"
-              />
-            </div>
-            <h2>
-              I am happy you made it! Check out my projects, work experience,
-              and learn about my passions!
-            </h2>
-          </div>
-        </div>
-
         <div className="spacer"></div>
 
         <div id="about-me-id">
