@@ -13,14 +13,18 @@ export default function Home() {
   return (
     <div id="top" className="top">
       <Nav></Nav>
-
       <div className="content">
-        <div className="landing-name">
-          <div className="landing-name-container">
-            <h1>CURTIS ROBINSON </h1>
-            <div className="landing-name-container-image"></div>
+        <div class="landing-name">
+          <div class="landing-name-container">
+            <div class="landing-name-container-image fade-in-slide-up">
+              <CustomImage src={"/Curtis_NoBG.png"} alt="positano" />
+            </div>
+            <div class="landing-name-text">
+              <h1>CURTIS ROBINSON </h1>
+            </div>
           </div>
         </div>
+
         <div className="spacer"></div>
         <Link href="#projects-id" className="socialLinksButton">
           <div className="contact-me-element">
