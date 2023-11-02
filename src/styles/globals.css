@@ -531,7 +531,7 @@
 .projects-container h1 {
   font-weight: bold;
   font-size: 6rem;
-  color: white;
+  color: rgb(57, 57, 58);
   background-color: transparent;
 }
 
@@ -554,11 +554,12 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: grey;
+  background-color: rgb(57, 57, 58);
 }
 
 .projects-element h1 {
   font-size: 4rem;
+  font-weight: bold;
   color: white;
   background-color: transparent;
 }

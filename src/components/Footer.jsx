@@ -7,7 +7,7 @@ export const Footer = () => {
           CONTACT
         </Link>
         <Link href="#top" className="footButton">
-          BACK TO TOP
+          hope you enjoyed | designed by me
         </Link>
         <Link href="#contact-me-id" className="footButton">
           SOCIAL LINKS

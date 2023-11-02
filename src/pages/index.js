@@ -339,6 +339,10 @@ export default function Home() {
               to mastering the intersection of hardware and software in the
               field of computer engineering.
             </h2>
+            <h2>Skills Demonstrated:</h2>
+            <h2> - Assembly Language </h2>
+            <h2> - Xilinx Vivado & CubeMX</h2>
+            <h2> - FPGA Development</h2>
             <div className="project-button">
               <Link
                 href="https://github.com/curtisrobinson2303/Resume-Items"
@@ -364,6 +368,10 @@ export default function Home() {
               to mastering the intersection of hardware and software in the
               field of computer engineering.
             </h2>
+            <h2>Skills Demonstrated:</h2>
+            <h2> - HTML CSS Javascript </h2>
+            <h2> - Git</h2>
+            <h2> - Problem Solving</h2>
             <div className="project-button">
               <Link
                 href="https://github.com/curtisrobinson2303/Resume-Items"
@@ -417,6 +425,10 @@ export default function Home() {
               the intricacies of storage systems, ensuring data integrity and
               reliability at a fundamental level.
             </h2>
+            <h2>Skills Demonstrated:</h2>
+            <h2> - C++ </h2>
+            <h2> - State-Machine Analysis </h2>
+            <h2> - Bash / Scripting Command Line Tool Dev</h2>
             <div className="project-button">
               <Link
                 href="https://github.com/curtisrobinson2303/Resume-Items"
