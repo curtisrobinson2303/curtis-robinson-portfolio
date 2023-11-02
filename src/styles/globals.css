@@ -68,11 +68,14 @@
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: white;
-  /* Transparent background with alpha (0.1 for 10% opacity) */
+  color: black; /* Default text color is black */
   background-color: transparent;
   border-radius: 10px;
   transition: background-color 0.1s;
+  mix-blend-mode: difference; /* Blend the text color with the background */
+
+  background-color: rgba(255, 255, 255, 0.1); /* Default background color */
+
   &:hover {
     background-color: rgba(236, 240, 241, 0.8);
   }
