@@ -46,13 +46,16 @@ export default function Home() {
             <h2>01</h2>
           </div>
         </div>
-
         <div className="spacer"></div>
         <div className="landing-subtitle">
           <h1>Engineer</h1>
-          <div className="line-landing"></div>
+        </div>
+        <div className="spacer"></div>
+        <div className="landing-subtitle">
           <h2>Leader</h2>
-          <div className="line-landing"></div>
+        </div>
+        <div className="spacer"></div>
+        <div className="landing-subtitle">
           <h3>Dreamer</h3>
         </div>
         <div className="spacer"></div>
