@@ -24,11 +24,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="spacer"></div>
         <Link href="#projects-id" className="socialLinksButton">
           <div className="contact-me-element">
-            <h1>PROJECTS</h1>
+            <h1>JUMP TO PROJECTS</h1>
             {/* <Image
                 src={"/GitHub_Logo.png"}
                 width={500}
@@ -38,8 +37,21 @@ export default function Home() {
           </div>
         </Link>
         <div className="spacer"></div>
+
+        <div className="section-title">
+          <div className="section-title-text">
+            <h1>HELLO</h1>
+            <h2>01</h2>
+          </div>
+        </div>
+
+        <div className="spacer"></div>
         <div className="landing-subtitle">
-          <h2>Engineer Leader Dreamer</h2>
+          <h1>Engineer</h1>
+          <div className="line-landing"></div>
+          <h2>Leader</h2>
+          <div className="line-landing"></div>
+          <h3>Dreamer</h3>
         </div>
         <div className="spacer"></div>
         <div className="photo-space">
@@ -64,9 +76,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="spacer"></div>
 
         <div id="about-me-id">
+          <div className="spacer"></div>
           <div className="about-me">
             <div className="about-me-container">
               <h1>ABOUT ME</h1>
@@ -90,8 +102,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="spacer"></div>
         <div id="my-life-id">
+          <div className="spacer"></div>
           <div className="my-life">
             <div className="my-life-container">
               <h1>MY LIFE</h1>
@@ -130,13 +142,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="spacer"></div>
-
         <div id="experience-id">
-          <div className="experience">
-            <div className="experience-container">
+          <div className="spacer"></div>
+          <div className="section-title">
+            <div className="section-title-text">
               <h1>EXPERIENCE</h1>
+              <h2>02</h2>
             </div>
           </div>
           <div className="spacer"></div>
@@ -250,8 +261,16 @@ export default function Home() {
             <div className="experience-line"></div>
           </div>
         </div>
-        <div className="spacer"></div>
+
         <div id="leadership-id">
+          <div className="spacer"></div>
+          <div className="section-title">
+            <div className="section-title-text">
+              <h1>LEADERSHIP</h1>
+              <h2>03</h2>
+            </div>
+          </div>
+          <div className="spacer"></div>
           <div className="leadership">
             <div className="leadership-container">
               <h1> LEADERSHIP </h1>
@@ -313,16 +332,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="spacer"></div>
-        <div className="spacer"></div>
         <div id="projects-id">
-          <div className="projects">
-            <div className="projects-container">
+          <div className="spacer"></div>
+          <div className="section-title">
+            <div className="section-title-text">
               <h1>PROJECTS</h1>
-              <h2></h2>
+              <h2>04</h2>
             </div>
           </div>
-          <div className="spacer"></div>
           <div className="spacer"></div>
           <div className="projects-element">
             <h1>Analog to Digital Converter</h1>
@@ -439,11 +456,17 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="spacer"></div>
         <div id="contact-me-id">
+          <div className="spacer"></div>
+          <div className="section-title">
+            <div className="section-title-text">
+              <h1>CONTACT ME</h1>
+              <h2>05</h2>
+            </div>
+          </div>
+          <div className="spacer"></div>
           <div className="contact-me">
             <div className="contact-me-container">
-              <h1>CONTACT ME</h1>
               <h3>Feel free to contact me and checkout my work down below!</h3>
             </div>
           </div>
