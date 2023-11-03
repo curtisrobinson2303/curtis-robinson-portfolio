@@ -92,31 +92,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(57, 57, 58);
 }
 
 .landing-name-container {
-  background-color: rgb(57, 57, 58);
   position: relative;
   display: flex;
   justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  align-items: right; /* Center vertically */
 }
 
 .landing-name-container-image {
-  width: 450px;
-  height: 550px;
+  right: 10px;
+  top: 20px;
+  width: 500px;
+  height: 610px;
   opacity: 0; /* Initially hidden */
   transform: translateY(50px); /* Move down 50px, change as needed */
-  transition: opacity 0.1s, transform 0.5s; /* Transition properties */
   border-radius: 10px;
   overflow: hidden;
   position: absolute;
   z-index: 2; /* Place image behind text */
-  opacity: 0.95;
+  opacity: 1;
   margin: auto; /* Center the image horizontally within the container */
 }
 
 .landing-name-text {
+  padding-left: 25px;
+  text-align: left;
   z-index: 1; /* Place text in front of the image */
 }
 
@@ -161,6 +164,12 @@
   background-color: rgb(57, 57, 58);
   color: white;
   padding-right: 25px;
+}
+
+.hero-landing {
+  width: 65%;
+  height: 2px;
+  background-color: white;
 }
 
 .line-landing {

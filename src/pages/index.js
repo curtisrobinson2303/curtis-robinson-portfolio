@@ -20,7 +20,9 @@ export default function Home() {
               <CustomImage src={"/Curtis_NoBG.png"} alt="positano" />
             </div>
             <div class="landing-name-text">
-              <h1>CURTIS ROBINSON </h1>
+              <h1>CURTIS</h1>
+              <div className="hero-landing"></div>
+              <h1>ROBINSON </h1>
             </div>
           </div>
         </div>
