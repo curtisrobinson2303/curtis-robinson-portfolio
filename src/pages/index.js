@@ -197,6 +197,17 @@ export default function Home() {
                 ● Developed driver-level debug scripts to assist with low-level
                 debugging to implement efficiency and simplicity
               </h4>
+
+              <h3></h3>
+              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+                <Image
+                  src="/owc-logo.png"
+                  width={300}
+                  height={300}
+                  objectFit="cover"
+                  alt="owclogo"
+                />
+              </div>
               <h3></h3>
             </div>
             <div className="experience-line"></div>
@@ -221,6 +232,16 @@ export default function Home() {
                 ● Spearheaded software reliability testing prior to software &
                 hardware releases
               </h4>
+              <h3></h3>
+              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+                <Image
+                  src="/owc-logo.png"
+                  width={300}
+                  height={300}
+                  objectFit="cover"
+                  alt="owclogo"
+                />
+              </div>
               <h3></h3>
             </div>
             <div className="experience-line"></div>
@@ -262,11 +283,20 @@ export default function Home() {
                 ad-production
               </h4>
               <h3></h3>
+              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+                <Image
+                  src={"/varsityPrep.jpg"}
+                  width={300}
+                  height={300}
+                  objectFit="cover"
+                  alt="varsityPrepLogo"
+                />
+              </div>
+              <h3></h3>
             </div>
             <div className="experience-line"></div>
           </div>
         </div>
-
         <div id="leadership-id">
           <div className="spacer"></div>
           <div className="section-title">
