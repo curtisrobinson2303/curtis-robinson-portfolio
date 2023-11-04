@@ -375,6 +375,36 @@ export default function Home() {
               <h2>04</h2>
             </div>
           </div>
+
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>USB Music Player / Audio Intensity Sensor </h1>
+            <h2>
+              I created a USB music player that utilizes a double buffer system
+              to read and play specific signals of our choice. Each of my
+              buffers held 1 second of data using the 16-bit unsigned music
+              files which are sampled at 16KHz. Once the buffers are full with a
+              part of the sampled file I then outputted the total entries from
+              that buffer and then switch to the other to output the next second
+              while refilling the first to continue through the song. Then I
+              developed a program that takes the outputted sine wave and samples
+              it by taking the peak values for each period. These peaks are then
+              displayed on the LED strip dynamically. Check out the demo below
+              to observe it in action!
+            </h2>
+            <h3>Skills Demonstrated:</h3>
+            <h2> - C / Data Structures </h2>
+            <h2> - Real-Time Embedded Systems Design </h2>
+            <h2> - STMicro CubeMX</h2>
+            <div className="project-button">
+              <Link
+                href="https://drive.google.com/drive/folders/1iKybxCMZgzyoLiD_Mrs_-aFrYB5UPuSo?usp=sharing"
+                className="projectsButton"
+              >
+                <h1>View Demo</h1>
+              </Link>
+            </div>
+          </div>
           <div className="spacer"></div>
           <div className="projects-element">
             <h1>Analog to Digital Converter</h1>
@@ -391,7 +421,7 @@ export default function Home() {
               to mastering the intersection of hardware and software in the
               field of computer engineering.
             </h2>
-            <h2>Skills Demonstrated:</h2>
+            <h3>Skills Demonstrated:</h3>
             <h2> - Assembly Language </h2>
             <h2> - Xilinx Vivado & CubeMX</h2>
             <h2> - FPGA Development</h2>
@@ -420,13 +450,13 @@ export default function Home() {
               update styles and content weekly. You can find the repository on
               my github profile if interested!
             </h2>
-            <h2>Skills Demonstrated:</h2>
+            <h3>Skills Demonstrated:</h3>
             <h2> - HTML CSS Javascript </h2>
             <h2> - Git</h2>
             <h2> - Problem Solving</h2>
             <div className="project-button">
               <Link href="https://nsbescu.org/" className="projectsButton">
-                <h1>Check out my project!</h1>
+                <h1>View Deployed Website</h1>
               </Link>
             </div>
           </div>
@@ -446,7 +476,7 @@ export default function Home() {
               circuit design but also validated my capacity to translate theory
               into real-world solutions.
             </h2>
-            <h2>Skills Demonstrated:</h2>
+            <h3>Skills Demonstrated:</h3>
             <h2> - Advanced Circuit Analysis </h2>
             <h2> - MATLAB </h2>
             <h2> - Time Varying Signals</h2>
@@ -455,7 +485,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>Check out my project!</h1>
+                <h1>Check out my report!</h1>
               </Link>
             </div>
           </div>
@@ -474,7 +504,7 @@ export default function Home() {
               the intricacies of storage systems, ensuring data integrity and
               reliability at a fundamental level.
             </h2>
-            <h2>Skills Demonstrated:</h2>
+            <h3>Skills Demonstrated:</h3>
             <h2> - C++ </h2>
             <h2> - State-Machine Analysis </h2>
             <h2> - Bash / Scripting Command Line Tool Dev</h2>
@@ -483,7 +513,7 @@ export default function Home() {
                 href="https://github.com/curtisrobinson2303/Resume-Items"
                 className="projectsButton"
               >
-                <h1>Check out my project!</h1>
+                <h1>View my source code</h1>
               </Link>
             </div>
           </div>
