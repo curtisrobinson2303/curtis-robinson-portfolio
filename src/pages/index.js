@@ -408,27 +408,24 @@ export default function Home() {
           <div className="projects-element">
             <h1>NSBE Chapter Website</h1>
             <h2>
-              In my computer engineering microprocessor system design class, I
-              worked on a fascinating project where I designed analog-to-digital
-              converters (ADCs) utilizing FPGA technology and Xilinx Vivado.
-              This project was a testament to my hands-on experience in digital
-              system design and FPGA programming. By creating custom ADCs, I
-              gained practical insights into the nuances of signal processing,
-              data conversion, and hardware design. This endeavor not only
-              broadened my understanding of microprocessor systems but also
-              honed my proficiency in FPGA development, showcasing my commitment
-              to mastering the intersection of hardware and software in the
-              field of computer engineering.
+              During my time on the National Society of Black Engineers
+              executive board at Santa Clara University I had the chance to
+              pioneer a new method for outreach, opportunities, and
+              communication for our chapter. As Public Realations Chair I
+              undertook the challenge of developing a chapter website from
+              scrath. With no previous front-end experience, I spend several
+              weeks diving into the world of front end development to diversify
+              my skill set. This website is culmination of my front end dev work
+              from september 2023-present. It is still in development as I
+              update styles and content weekly. You can find the repository on
+              my github profile if interested!
             </h2>
             <h2>Skills Demonstrated:</h2>
             <h2> - HTML CSS Javascript </h2>
             <h2> - Git</h2>
             <h2> - Problem Solving</h2>
             <div className="project-button">
-              <Link
-                href="https://github.com/curtisrobinson2303/Resume-Items"
-                className="projectsButton"
-              >
+              <Link href="https://nsbescu.org/" className="projectsButton">
                 <h1>Check out my project!</h1>
               </Link>
             </div>
