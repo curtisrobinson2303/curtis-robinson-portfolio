@@ -3,7 +3,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="footerContainer">
-        <Link href="contact-me-id" className="footButton">
+        <Link href="#contact-me-id" className="footButton">
           CONTACT
         </Link>
         <Link href="#top" className="footButton">
