@@ -529,7 +529,13 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="contact-me">
             <div className="contact-me-container">
-              <h3>Feel free to contact me and checkout my work down below!</h3>
+              <h3>
+                Thanks for checking out my personal website. I developed this
+                entire website using NextJs, React, CSS, and HTML. The site is
+                still under development and I am always adding new feature,
+                styles, and content. Feel free to contact me and checkout more
+                of my work down below!
+              </h3>
             </div>
           </div>
           <div className="spacer"></div>
@@ -563,15 +569,12 @@ export default function Home() {
             </div>
           </Link>
           <div className="spacer"></div>
-          <Link href="" className="socialLinksButton">
+          <Link
+            href="mailto:curtisrobinson2303@gmail.com"
+            className="socialLinksButton"
+          >
             <div className="contact-me-element">
               <h1>EMAIL</h1>
-              {/* <Image
-                src={"/mailicon.png"}
-                width={100}
-                height={1000}
-                alt="mailicon"
-              /> */}
             </div>
           </Link>
         </div>
