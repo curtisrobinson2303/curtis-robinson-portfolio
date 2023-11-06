@@ -60,8 +60,8 @@
   width: 100%;
   display: flex;
   gap: 5%;
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.1);
   align-items: center;
   border-radius: 10px;
 }
@@ -77,20 +77,20 @@
   color: white; /* Default text color is black */
   background-color: transparent;
   border-radius: 10px;
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   /* Remove the commented out background-color property */
   /* background-color: rgba(236, 240, 241, 0.8); */
-
   /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(37, 206, 209, 0.9);
+    background-color: rgba(255, 255, 255, 0.244);
   }
   animation: slide-up 1s;
 }
 
 .landing-name {
   animation: slide-up 1s;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   text-align: center;
   max-width: 100%;
@@ -137,7 +137,7 @@
   color: #fff;
 }
 .landing-subtitle {
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   display: flex;
   height: auto;
   flex-direction: column;
@@ -146,7 +146,7 @@
   font-weight: bold;
   animation: slide-up 1s;
   border-radius: 10px;
-  /* border: 1px solid rgb(255, 255, 255); */
+  /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
 }
 
 .landing-subtitle h1 {
@@ -252,7 +252,7 @@
   background-color: transparent;
   width: 100%;
   height: 600px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 
@@ -305,9 +305,9 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
-  /*border: 1px solid rgb(255, 255, 255);*/
+  /*border: 0.5px solid rgba(255, 255, 255, 0.1);*/
 }
 .about-me-container {
 }
@@ -346,7 +346,6 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
   transition: background-color 0.05s;
 }
 .experience-container {
@@ -384,7 +383,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
 }
 .experience-container-element {
@@ -432,7 +431,7 @@
   border-radius: 10px;
   background-color: transparent;
   transition: background-color 0.05s;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 .leadership-container {
   background-color: transparent;
@@ -472,11 +471,11 @@
   padding: 25px 25px;
   width: 100%;
   height: auto;
-
+  background-color: white;
   border-radius: 10px;
-  background-color: transparent;
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
 }
 
 .leadership-element h1 {
@@ -506,7 +505,7 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
 }
 .my-life-container {
@@ -548,9 +547,9 @@
 
 .threeThings-element {
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
-  /* border: 1px solid rgb(255, 255, 255); */
+  /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
   overflow: hidden;
   object-fit: cover;
   position: relative;
@@ -566,9 +565,9 @@
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   background-color: transparent;
   justify-content: center;
 }
@@ -588,7 +587,7 @@
   border-radius: 10px;
   background-color: rgb(37, 206, 209);
   transition: background-color 0.05s;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 .projects-container {
   display: flex;
@@ -625,7 +624,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
 }
 
 .projects-element h1 {
@@ -686,7 +685,7 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  background-color: rgb(57, 57, 58);
+  background-color: rgba(57, 57, 58, 0.5);
   transition: background-color 0.05s;
 }
 .contact-me-container {
@@ -714,7 +713,7 @@
   align-items: center;
   background-color: transparent;
   transition: background-color 0.05s;
-  border: 1px solid rgb(255, 255, 255);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px; /* Set border-radius to round the image corners */
   transition: background-color 0.05s;
   &:hover {

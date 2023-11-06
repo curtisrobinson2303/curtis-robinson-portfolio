@@ -521,6 +521,22 @@ export default function Home() {
               </Link>
             </div>
           </div>
+          <div className="spacer"></div>
+          <div className="projects-element">
+            <h1>Personal Website</h1>
+            <h2>
+              Throughout the last couple weeks I have developed this personal
+              website. I started by applying my skills from the NSBE Chapter
+              website and learned the fundamentals of react and NextJs. I was
+              able to gain a quick grasp on this framework due to my problem
+              solving flexibility and determination. This site is still in
+              development and mobile responsiveness is coming!!
+            </h2>
+            <h3>Skills Demonstrated:</h3>
+            <h2> - React </h2>
+            <h2> - NextJs </h2>
+            <h2> - Javascript, HTML, CSS</h2>
+          </div>
         </div>
         <div id="contact-me-id">
           <div className="spacer"></div>
