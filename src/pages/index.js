@@ -523,7 +523,7 @@ export default function Home() {
           </div>
           <div className="spacer"></div>
           <div className="projects-element">
-            <h1>Personal Website</h1>
+            <h1>Personal Website!</h1>
             <h2>
               Throughout the last couple weeks I have developed this personal
               website. I started by applying my skills from the NSBE Chapter
