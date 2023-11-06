@@ -228,9 +228,13 @@
   /* Transparent background with alpha (0.1 for 10% opacity) */
   background-color: transparent;
   border-radius: 10px;
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  /* Remove the commented out background-color property */
+  /* background-color: rgba(236, 240, 241, 0.8); */
+  /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(236, 240, 241, 0.8);
+    background-color: rgba(255, 255, 255, 0.244);
   }
   animation: slide-up 1s;
 }
@@ -306,7 +310,7 @@
   display: flex;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   /*border: 0.5px solid rgba(255, 255, 255, 0.1);*/
 }
 .about-me-container {
@@ -346,7 +350,7 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
 }
 .experience-container {
   display: flex;
@@ -384,7 +388,7 @@
   flex-direction: column;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
 }
 .experience-container-element {
   display: flex;
@@ -430,7 +434,7 @@
 
   border-radius: 10px;
   background-color: transparent;
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 .leadership-container {
@@ -474,7 +478,7 @@
   background-color: white;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
 }
 
@@ -506,7 +510,7 @@
   display: flex;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
 }
 .my-life-container {
   background-color: transparent;
@@ -548,7 +552,7 @@
 .threeThings-element {
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
   overflow: hidden;
   object-fit: cover;
@@ -566,7 +570,7 @@
   padding-bottom: 25px;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   border: 0.5px solid rgba(255, 255, 255, 0.1);
   background-color: transparent;
   justify-content: center;
@@ -586,7 +590,7 @@
   display: flex;
   border-radius: 10px;
   background-color: rgb(37, 206, 209);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
   border: 0.5px solid rgba(255, 255, 255, 0.1);
 }
 .projects-container {
@@ -656,9 +660,13 @@
   justify-content: center;
   background-color: rgb(37, 206, 209);
   width: 25%;
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  /* Remove the commented out background-color property */
+  /* background-color: rgba(236, 240, 241, 0.8); */
+  /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.244);
   }
   animation: slide-up 1s;
   border-radius: 10px;
@@ -686,11 +694,12 @@
   display: flex;
   border-radius: 10px;
   background-color: rgba(57, 57, 58, 0.5);
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
 }
 .contact-me-container {
   background-color: transparent;
   padding-left: 50px;
+
   padding-right: 50px;
 }
 
@@ -712,27 +721,18 @@
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  transition: background-color 0.05s;
-  border: 0.5px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px; /* Set border-radius to round the image corners */
-  transition: background-color 0.05s;
+  transition: background-color 0.2s;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  /* Remove the commented out background-color property */
+  /* background-color: rgba(236, 240, 241, 0.8); */
+  /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 0, 0, 0.9);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.244);
   }
 }
 .contact-me-element h1 {
   font-size: 4rem;
   font-weight: bold;
-}
-
-.socialLinksButton {
   color: white;
-  background-color: transparent;
-  transition: background-color 0.05s;
-  &:hover {
-    background-color: rgba(255, 0, 0, 0.9);
-  }
-  animation: slide-up 1s;
-  border-radius: 10px;
 }
