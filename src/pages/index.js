@@ -71,7 +71,7 @@ export default function Home() {
               <CustomImage src={"/scdi.jpeg"} alt="scdi" />
             </div>
             <div className="photo-space-container-image">
-              <CustomImage src={"/dronemttam.jpeg"} alt="dronemttam" />
+              <CustomImage src={"/nikelebron.png"} alt="dronemttam" />
             </div>
             <div className="photo-space-container-image">
               <CustomImage src={"/mttamsunset.jpeg"} alt="mttamsunset" />
@@ -357,12 +357,16 @@ export default function Home() {
                 networking opportunities and access to insights from experts in
                 the field.
               </h3>
-              <Image
-                src={"/MLTlogo.jpg"}
-                width={400}
-                height={400}
-                alt="mltlogo"
-              />
+
+              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+                <Image
+                  src={"/MLTlogo.jpg"}
+                  width={400}
+                  height={400}
+                  alt="mltlogo"
+                  border-radius="10px"
+                />
+              </div>
             </div>
           </div>
         </div>
