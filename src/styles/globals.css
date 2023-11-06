@@ -12,7 +12,7 @@
   position: relative;
   padding: 0px 25px 25px 25px;
   width: fit-content;
-  background: rgb(18, 16, 16);
+  background: rgb(12, 10, 10);
   /* background: linear-gradient(
     85deg,
     rgba(207, 116, 116, 0.7),
@@ -84,7 +84,7 @@
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.144);
   }
   animation: slide-up 1s;
 }
@@ -130,15 +130,13 @@
   z-index: 1; /* Place text in front of the image */
 }
 
-/* Rest of your styles... */
-
-.landing-name h1 {
+.landing-name-text h1 {
   font-size: 1500%;
   font-weight: bold;
   color: #fff;
 }
 .landing-subtitle {
-  background-color: rgba(57, 57, 58, 0.5);
+  background-color: rgba(57, 57, 58, 0.4);
   display: flex;
   height: auto;
   flex-direction: column;
@@ -235,7 +233,7 @@
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.144);
   }
   animation: slide-up 1s;
 }
@@ -310,7 +308,7 @@
   height: auto;
   display: flex;
   border-radius: 10px;
-  background-color: rgba(57, 57, 58, 0.5);
+  background-color: rgba(57, 57, 58, 0.4);
   transition: background-color 0.2s;
   /*border: 0.5px solid rgba(255, 255, 255, 0.1);*/
 }
@@ -324,16 +322,16 @@
   background-color: transparent;
 }
 
-.about-me-container h2 {
-  font-size: 4rem;
-  color: white;
-  background-color: transparent;
-}
-
 .about-me-container h3 {
   padding-top: 25px;
   font-size: 2rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: transparent;
+}
+
+.bolded-inline-text {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
   background-color: transparent;
 }
 
@@ -369,18 +367,6 @@
   background-color: transparent;
 }
 
-.experience-container h2 {
-  font-size: 4rem;
-  color: white;
-  background-color: transparent;
-}
-
-.experience-container h3 {
-  font-size: 2rem;
-  color: white;
-  background-color: transparent;
-}
-
 .experience-element {
   padding: 25px 25px;
   width: 100%;
@@ -388,7 +374,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: rgba(57, 57, 58, 0.5);
+  background-color: rgba(57, 57, 58, 0.4);
   transition: background-color 0.2s;
 }
 .experience-container-element {
@@ -410,20 +396,20 @@
 .experience-container-element h2 {
   font-weight: bold;
   font-size: 2rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
 }
 
 .experience-container-element h3 {
   font-size: 1.5rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
   padding-bottom: 50px;
 }
 
 .experience-container-element h4 {
   font-size: 1.5rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
 }
 
@@ -478,7 +464,7 @@
   height: auto;
   background-color: white;
   border-radius: 10px;
-  background-color: rgba(57, 57, 58, 0.5);
+  background-color: rgba(57, 57, 58, 0.4);
   transition: background-color 0.2s;
   /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
 }
@@ -493,14 +479,15 @@
 .leadership-element h2 {
   text-align: left;
   font-size: 2.5rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
 }
 .leadership-element h3 {
   text-align: left;
   font-size: 1.5rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
+  padding-bottom: 25px;
 }
 
 /* my-life styles */
@@ -532,7 +519,7 @@
 
 .my-life-container h3 {
   font-size: 2rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
 }
 
@@ -566,7 +553,7 @@
 
 .threeThings-container-text {
   display: flex;
-  gap: 120px;
+  gap: 20%;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 10px;
@@ -575,6 +562,13 @@
   border: 0.5px solid rgba(255, 255, 255, 0.1);
   background-color: transparent;
   justify-content: center;
+}
+
+.threeThings-element-text {
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .threeThings-element-text h1 {
   color: white;
@@ -603,25 +597,6 @@
   height: 100%;
 }
 
-.projects-container h1 {
-  font-weight: bold;
-  font-size: 6rem;
-  color: rgb(57, 57, 58);
-  background-color: transparent;
-}
-
-.projects-container h2 {
-  font-size: 4rem;
-  color: white;
-  background-color: transparent;
-}
-
-.projects-container h3 {
-  font-size: 2rem;
-  color: white;
-  background-color: transparent;
-}
-
 .projects-element {
   padding: 25px 25px;
   width: 100%;
@@ -629,7 +604,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-color: rgba(57, 57, 58, 0.5);
+  background-color: rgba(57, 57, 58, 0.4);
 }
 
 .projects-element h1 {
@@ -641,14 +616,14 @@
 
 .projects-element h2 {
   font-size: 1.5rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
   padding-bottom: 25px;
 }
 .projects-element h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: rgba(255, 255, 255, 0.85);
   background-color: transparent;
   padding-bottom: 25px;
 }
@@ -667,7 +642,7 @@
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.144);
   }
   animation: slide-up 1s;
   border-radius: 10px;
@@ -729,7 +704,7 @@
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
   &:hover {
-    background-color: rgba(255, 255, 255, 0.244);
+    background-color: rgba(255, 255, 255, 0.144);
   }
 }
 .contact-me-element h1 {

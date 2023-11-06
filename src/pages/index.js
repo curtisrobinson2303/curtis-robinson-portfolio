@@ -16,7 +16,7 @@ export default function Home() {
       <div className="content">
         <div class="landing-name">
           <div class="landing-name-container">
-            <div class="landing-name-container-image fade-in-slide-up">
+            <div class="landing-name-container-image">
               <CustomImage src={"/Curtis_NoBG.png"} alt="positano" />
             </div>
             <div class="landing-name-text">
@@ -38,51 +38,49 @@ export default function Home() {
               /> */}
           </div>
         </Link>
-        <div className="spacer"></div>
-
-        <div className="section-title">
-          <div className="section-title-text">
-            <h1>HELLO</h1>
-            <h2>01</h2>
-          </div>
-        </div>
-        <div className="spacer"></div>
-        <div className="landing-subtitle">
-          <h1>Engineer</h1>
-        </div>
-        <div className="spacer"></div>
-        <div className="landing-subtitle">
-          <h2>Leader</h2>
-        </div>
-        <div className="spacer"></div>
-        <div className="landing-subtitle">
-          <h3>Dreamer</h3>
-        </div>
-        <div className="spacer"></div>
-        <div className="photo-space">
-          <div className="photo-space-container">
-            <div className="photo-space-container-image">
-              <CustomImage src={"/positano.JPG"} alt="positano" />
-            </div>
-            <div className="photo-space-container-image">
-              <CustomImage src={"/interlaken.JPG"} alt="interlaken" />
-            </div>
-            <div className="photo-space-container-image">
-              <CustomImage src={"/scdi.jpeg"} alt="scdi" />
-            </div>
-            <div className="photo-space-container-image">
-              <CustomImage src={"/nikelebron.png"} alt="dronemttam" />
-            </div>
-            <div className="photo-space-container-image">
-              <CustomImage src={"/mttamsunset.jpeg"} alt="mttamsunset" />
-            </div>
-            <div className="photo-space-container-image">
-              <CustomImage src={"/hawaiisunsethike.png"} alt="hawaiihike" />
-            </div>
-          </div>
-        </div>
-
         <div id="about-me-id">
+          <div className="spacer"></div>
+          <div className="section-title">
+            <div className="section-title-text">
+              <h1>HELLO</h1>
+              <h2>01</h2>
+            </div>
+          </div>
+          <div className="spacer"></div>
+          <div className="landing-subtitle">
+            <h1>Engineer</h1>
+          </div>
+          <div className="spacer"></div>
+          <div className="landing-subtitle">
+            <h2>Leader</h2>
+          </div>
+          <div className="spacer"></div>
+          <div className="landing-subtitle">
+            <h3>Dreamer</h3>
+          </div>
+          <div className="spacer"></div>
+          <div className="photo-space">
+            <div className="photo-space-container">
+              <div className="photo-space-container-image">
+                <CustomImage src={"/positano.JPG"} alt="positano" />
+              </div>
+              <div className="photo-space-container-image">
+                <CustomImage src={"/interlaken.JPG"} alt="interlaken" />
+              </div>
+              <div className="photo-space-container-image">
+                <CustomImage src={"/scdi.jpeg"} alt="scdi" />
+              </div>
+              <div className="photo-space-container-image">
+                <CustomImage src={"/nikelebron.png"} alt="dronemttam" />
+              </div>
+              <div className="photo-space-container-image">
+                <CustomImage src={"/mttamsunset.jpeg"} alt="mttamsunset" />
+              </div>
+              <div className="photo-space-container-image">
+                <CustomImage src={"/hawaiisunsethike.png"} alt="hawaiihike" />
+              </div>
+            </div>
+          </div>
           <div className="spacer"></div>
           <div className="about-me">
             <div className="about-me-container">
@@ -93,16 +91,25 @@ export default function Home() {
                 pursuing a degree in Electrical & Computer Engineering. My
                 passion lies in driving innovation in the world of technology,
                 and I&#39;m always ready to embrace the cutting edge. From
-                Artificial Intelligence to Quantum Computing, I&#39;m excited by
-                it all. I have a knack for transforming ideas into reality, be
-                it through designing computer hardware or crafting software
-                solutions. It&#39;s the thrill of creation that keeps me going.
-                As we navigate this ever-evolving tech landscape, I believe in
-                the power of connection and collaboration. If you share my
-                enthusiasm for shaping the future of technology, let&#39;s
-                connect and make a difference together. Feel free to explore
-                some of my projects and ideas at curtisrobinson.co and join me
-                on this exhilarating journey!
+                <strong className="bolded-inline-text">
+                  {" "}
+                  Artificial Intelligence to Quantum Computing
+                </strong>
+                , I&#39;m excited by it all. I have a knack for transforming
+                ideas into reality, be it through designing computer hardware or
+                crafting software solutions. It&#39;s the thrill of creation
+                that keeps me going. As we navigate this ever-evolving tech
+                landscape, I believe in the power of{" "}
+                <strong className="bolded-inline-text">
+                  connection and collaboration.
+                </strong>{" "}
+                If you share my enthusiasm for shaping the future of technology,
+                let&#39;s connect and make a difference together. Feel free to
+                explore some of my projects and ideas at{" "}
+                <strong className="bolded-inline-text">
+                  www.curtisrobinson.co
+                </strong>{" "}
+                and join me on this exhilarating journey!
               </h3>
             </div>
           </div>
@@ -163,21 +170,28 @@ export default function Home() {
               <h3>
                 Throughout my internship, I gained valuable experience and
                 wisdom that have significantly contributed to my professional
-                growth. I had the opportunity to optimize driver subroutines by
-                implementing shippable Single Instruction Multiple Data (SIMD)
-                subroutines across various Instruction Set Architectures (ISA).
-                This enhanced my technical skills and deepened my understanding
-                of software optimization and the complexities between low-level
-                software and hardware. I also played a crucial role in ensuring
-                reliability testing by developing C++/C test tools to analyze
-                and debug issues with our SoftRAID application. This experience
-                honed my programming fluency in C++, C, and Assembly Language as
-                well as emphasized the importance of thorough testing in
-                software development. In summary, my internship during the
-                summer of 2023 provided me with a diverse skill set, including
-                software optimization, programming, bug tracking, and debugging
-                techniques providing invaluable experience for my career
-                development in the field of computer engineering.
+                growth. I had the opportunity to{" "}
+                <strong className="bolded-inline-text">
+                  optimize driver subroutines by implementing shippable Single
+                  Instruction Multiple Data (SIMD) subroutines{" "}
+                </strong>{" "}
+                across various Instruction Set Architectures (ISA). This
+                enhanced my technical skills and deepened my understanding of
+                <strong className="bolded-inline-text">
+                  {" "}
+                  software time complexity optimization{" "}
+                </strong>
+                and the complexities between low-level software and hardware. I
+                also played a crucial role in ensuring reliability testing by
+                developing C++/C test tools to analyze and debug issues with our
+                SoftRAID application. This experience honed my programming
+                fluency in C++, C, and Assembly Language as well as emphasized
+                the importance of thorough testing in software development. In
+                summary, my internship during the summer of 2023 provided me
+                with a diverse skill set, including software optimization,
+                programming, bug tracking, and debugging techniques providing
+                invaluable experience for my career development in the field of
+                computer engineering.
               </h3>
               <h4>
                 ● Optimized driver subroutines by implementing shippable Single
@@ -189,13 +203,22 @@ export default function Home() {
                 C++/C test tools for CopyThat and SoftRAID applications
               </h4>
               <h4>
+                ● Created optimal{" "}
+                <strong className="bolded-inline-text">kernel panic log</strong>{" "}
+                scripts to increase reliability for 50+ customer support team
+              </h4>
+              <h4>
                 ● Investigated, tracked, and logged Redundancy Array of
                 Independent Disks (RAID) software and hardware bugs utilizing
                 Atlassian tools
               </h4>
               <h4>
-                ● Developed driver-level debug scripts to assist with low-level
-                debugging to implement efficiency and simplicity
+                ● Developed{" "}
+                <strong className="bolded-inline-text">
+                  driver-level debug scripts
+                </strong>{" "}
+                to assist with low-level debugging to implement efficiency and
+                simplicity
               </h4>
 
               <h3></h3>
@@ -216,17 +239,21 @@ export default function Home() {
               <h2>Otherworld Computing Intership Summer 2022</h2>
               <h3>
                 During my first year at Other World Computing, my role consisted
-                of Bug Tracking, Hardware testing for reliability, customer
-                support, and test tool programming. I worked alongside a team of
-                hardware and software engineers to debug and improve the user
-                experience and ease of use for the SoftRAID and CopyThat
-                applications. These responsibilities developed my attention to
-                detail and emphasized the importance of testing before a product
-                is shipped.
+                of{" "}
+                <strong className="bolded-inline-text">
+                  Bug Tracking, Hardware testing
+                </strong>{" "}
+                for reliability, customer support, and test tool programming. I
+                worked alongside a team of hardware and software engineers to
+                debug and improve the user experience and ease of use for the
+                SoftRAID and CopyThat applications. These responsibilities
+                developed my attention to detail and emphasized the importance
+                of testing before a product is shipped.
               </h3>
               <h4>
-                ● Worked with Atlassian Tools to track hardware and software
-                RAID system bugs.
+                ● Worked with{" "}
+                <strong className="bolded-inline-text">Atlassian Tools</strong>{" "}
+                to track hardware and software RAID system bugs.
               </h4>
               <h4>
                 ● Spearheaded software reliability testing prior to software &
@@ -275,8 +302,12 @@ export default function Home() {
                 experience and back-end communication processes
               </h4>
               <h4>
-                ● Utilized Firebase and App Store Connects cloud-based app
-                development tools for hosting and user data storage
+                ● Utilized{" "}
+                <strong className="bolded-inline-text">
+                  Firebase and App Store Connects
+                </strong>{" "}
+                cloud-based app development tools for hosting and user data
+                storage
               </h4>
               <h4>
                 ● Improved company branding and participated in marketing and
@@ -308,7 +339,7 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="leadership">
             <div className="leadership-container">
-              <h1> LEADERSHIP </h1>
+              <h1> PERSISTANCE </h1>
               <div className="line"></div>
               <h2> COMMUNICATION </h2>
               <div className="line"></div>
@@ -323,13 +354,18 @@ export default function Home() {
               <h2>Public Relations Chair</h2>
               <h3>
                 I stimulate positive community development by actively
-                participating in engineering outreach programs, fundraising
-                events, and chapter meetings. Alongside that, I revamped our
-                online presence, creating our dynamic and integrated website and
-                giving our social media identity a fresh new look. These efforts
-                helped me foster a stronger sense of community and connection
-                within our engineering circle, and I&#39;m proud of the impact
-                my initiatives had on our community&#39;s growth and engagement.
+                participating in engineering{" "}
+                <strong className="bold-inline-text">outreach programs,</strong>{" "}
+                fundraising events, and chapter meetings. Alongside that, I
+                revamped our online presence, creating our{" "}
+                <strong className="bold-inline-text">
+                  dynamic and integrated website
+                </strong>{" "}
+                and giving our social media identity a fresh new look. These
+                efforts helped me foster a stronger sense of community and
+                connection within our engineering circle, and I&#39;m proud of
+                the impact my initiatives had on our community&#39;s growth and
+                engagement.
               </h3>
               <Image
                 src={"/NSBELogo.png"}
@@ -357,7 +393,6 @@ export default function Home() {
                 networking opportunities and access to insights from experts in
                 the field.
               </h3>
-
               <div style={{ borderRadius: "10px", overflow: "hidden" }}>
                 <Image
                   src={"/MLTlogo.jpg"}
@@ -370,7 +405,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div id="projects-id">
           <div className="spacer"></div>
           <div className="section-title">
@@ -379,7 +413,6 @@ export default function Home() {
               <h2>04</h2>
             </div>
           </div>
-
           <div className="spacer"></div>
           <div className="projects-element">
             <h1>USB Music Player / Audio Intensity Sensor </h1>
@@ -415,15 +448,18 @@ export default function Home() {
             <h2>
               In my computer engineering microprocessor system design class, I
               worked on a fascinating project where I designed analog-to-digital
-              converters (ADCs) utilizing FPGA technology and Xilinx Vivado.
+              converters (ADCs) utilizing
+              <strong className="bold-inline-text">
+                FPGA technology and Xilinx Vivado.
+              </strong>
               This project was a testament to my hands-on experience in digital
               system design and FPGA programming. By creating custom ADCs, I
               gained practical insights into the nuances of signal processing,
               data conversion, and hardware design. This endeavor not only
               broadened my understanding of microprocessor systems but also
-              honed my proficiency in FPGA development, showcasing my commitment
-              to mastering the intersection of hardware and software in the
-              field of computer engineering.
+              honed my proficiency in FPGA development, showcasing my interest
+              into the intersection of hardware and software in the field of
+              computer engineering.
             </h2>
             <h3>Skills Demonstrated:</h3>
             <h2> - Assembly Language </h2>
@@ -470,15 +506,18 @@ export default function Home() {
             <h2>
               During my advanced circuits class, I undertook a challenging
               passive filter design project that underscored my proficiency in
-              circuit analysis and simulation using MATLAB. The project involved
-              creating passive filters for specific applications, demonstrating
-              my ability to navigate complex electrical circuits with precision.
-              Through rigorous analysis and meticulous MATLAB simulations, I
-              fine-tuned the filters to meet exacting requirements, showcasing
-              my skills in both theoretical and practical aspects of electrical
-              engineering. This project not only deepened my understanding of
-              circuit design but also validated my capacity to translate theory
-              into real-world solutions.
+              <strong className="bold-inline-text">
+                circuit analysis and simulation using MATLAB.
+              </strong>{" "}
+              The project involved creating passive filters for specific
+              applications, demonstrating my ability to navigate complex
+              electrical circuits with precision. Through rigorous analysis and
+              meticulous MATLAB simulations, I fine-tuned the filters to meet
+              exacting requirements, showcasing my skills in both theoretical
+              and practical aspects of electrical engineering. This project not
+              only deepened my understanding of circuit design but also
+              validated my capacity to translate theory into real-world
+              solutions.
             </h2>
             <h3>Skills Demonstrated:</h3>
             <h2> - Advanced Circuit Analysis </h2>
@@ -501,12 +540,15 @@ export default function Home() {
               an exciting project where I developed a low-level data corruption
               testing tool. This tool was designed to read memory from a hard
               drive using C++ and perform hex dumping of the values. What set
-              this project apart was its ability to run comparison operations,
-              effectively detecting data corruption at the driver level in RAID
-              systems. It was a challenging yet incredibly rewarding endeavor
-              that allowed me to hone my programming skills and delve deep into
-              the intricacies of storage systems, ensuring data integrity and
-              reliability at a fundamental level.
+              this project apart was its ability to run{" "}
+              <strong className="bold-inline-text">
+                comparison operations, effectively detecting data corruption at
+                the driver level in RAID systems
+              </strong>
+              . It was a challenging yet incredibly rewarding endeavor that
+              allowed me to hone my programming skills and delve deep into the
+              intricacies of storage systems memory protocols, ensuring data
+              integrity and reliability at a fundamental level.
             </h2>
             <h3>Skills Demonstrated:</h3>
             <h2> - C++ </h2>
@@ -527,8 +569,9 @@ export default function Home() {
             <h2>
               Throughout the last couple weeks I have developed this personal
               website. I started by applying my skills from the NSBE Chapter
-              website and learned the fundamentals of react and NextJs. I was
-              able to gain a quick grasp on this framework due to my problem
+              website and learned the fundamentals of{" "}
+              <strong className="bold-inline-text">React and NextJs.</strong> I
+              was able to gain a quick grasp on this framework due to my problem
               solving flexibility and determination. This site is still in
               development and mobile responsiveness is coming!!
             </h2>
