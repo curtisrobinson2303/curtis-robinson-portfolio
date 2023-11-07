@@ -443,6 +443,15 @@ export default function Home() {
                 <h1>View Demo</h1>
               </Link>
             </div>
+            <div className="spacer"></div>
+            <div className="project-button">
+              <Link
+                href="https://github.com/curtisrobinson2303/Resume-Items/tree/main/AUDIO_INTENSITY_LED_PROJECT"
+                className="projectsButton"
+              >
+                <h1>View Source Code</h1>
+              </Link>
+            </div>
           </div>
           <div className="spacer"></div>
           <div className="projects-element">
@@ -469,7 +478,7 @@ export default function Home() {
             <h2> - FPGA Development</h2>
             <div className="project-button">
               <Link
-                href="https://github.com/curtisrobinson2303/Resume-Items"
+                href="https://github.com/curtisrobinson2303/Resume-Items/blob/main/A_D%20and%20D_A%20Converters%20-%20Project%20Report%20%237%20.pdf"
                 className="projectsButton"
               >
                 <h1>Check out my project!</h1>
@@ -527,7 +536,7 @@ export default function Home() {
             <h2> - Time Varying Signals</h2>
             <div className="project-button">
               <Link
-                href="https://github.com/curtisrobinson2303/Resume-Items"
+                href="https://github.com/curtisrobinson2303/Resume-Items/blob/main/ELEN%20100%20FINAL%20PROJECT%201%20LAB%20REPORT%20.pdf"
                 className="projectsButton"
               >
                 <h1>Check out my report!</h1>
@@ -558,7 +567,7 @@ export default function Home() {
             <h2> - Bash / Scripting Command Line Tool Dev</h2>
             <div className="project-button">
               <Link
-                href="https://github.com/curtisrobinson2303/Resume-Items"
+                href="https://github.com/curtisrobinson2303/Resume-Items/tree/main/CorruptionTool"
                 className="projectsButton"
               >
                 <h1>View my source code</h1>
