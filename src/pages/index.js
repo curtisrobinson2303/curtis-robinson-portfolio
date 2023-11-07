@@ -31,11 +31,11 @@ export default function Home() {
           <div className="jump-projects">
             <div className="jump-projects-container">
               <div className="jump-projects-arrow">
-                <CustomImage src={"/right-arrow.png"} alt="positano" />
+                {/* <CustomImage src={"/right-arrow.png"} alt="positano" /> */}
               </div>
               <h1>JUMP TO PROJECTS</h1>
               <div className="jump-projects-arrow">
-                <CustomImage src={"/left-arrow.png"} alt="positano" />
+                {/* <CustomImage src={"/left-arrow.png"} alt="positano" /> */}
               </div>
             </div>
           </div>
