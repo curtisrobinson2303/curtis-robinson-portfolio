@@ -22,20 +22,22 @@ export default function Home() {
             <div class="landing-name-text">
               <h1>CURTIS</h1>
               <div className="hero-landing"></div>
-              <h1>ROBINSON </h1>
+              <h1>ROBINSON</h1>
             </div>
           </div>
         </div>
         <div className="spacer"></div>
         <Link href="#projects-id" className="socialLinksButton">
-          <div className="contact-me-element">
-            <h1>JUMP TO PROJECTS</h1>
-            {/* <Image
-                src={"/GitHub_Logo.png"}
-                width={500}
-                height={1000}
-                alt="githublogo"
-              /> */}
+          <div className="jump-projects">
+            <div className="jump-projects-container">
+              <div className="jump-projects-arrow">
+                <CustomImage src={"/right-arrow.png"} alt="positano" />
+              </div>
+              <h1>JUMP TO PROJECTS</h1>
+              <div className="jump-projects-arrow">
+                <CustomImage src={"/left-arrow.png"} alt="positano" />
+              </div>
+            </div>
           </div>
         </Link>
         <div id="about-me-id">
