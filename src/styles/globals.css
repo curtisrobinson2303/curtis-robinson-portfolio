@@ -264,8 +264,8 @@
   background-color: transparent;
   border-radius: 10px; /* Set border-radius to round the image corners */
   transition: background-color 0.2s;
-  background-color: rgba(255, 255, 255, 0.144);
-  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  background-color: transparent;
+  border: 0.5px solid rgba(255, 255, 255, 1);
   /* Remove the commented out background-color property */
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
