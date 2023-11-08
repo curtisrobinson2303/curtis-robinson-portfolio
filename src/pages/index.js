@@ -352,7 +352,7 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="leadership-element">
             <div className="leadership-container-element">
-              <h1>National Socetiy of Black Engineers</h1>
+              <h1>National Society of Black Engineers</h1>
               <h2>Public Relations Chair</h2>
               <h3>
                 I stimulate positive community development by actively
