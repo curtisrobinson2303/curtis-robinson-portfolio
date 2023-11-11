@@ -13,7 +13,7 @@ export const Nav = () => {
 
       scrollTimeout = setTimeout(() => {
         setIsNavbarVisible(true);
-      }, 2000);
+      }, 1500);
     };
 
     window.addEventListener("scroll", handleScroll);
