@@ -17,7 +17,7 @@ export default function Home() {
         <div class="landing-name">
           <div class="landing-name-container">
             <div class="landing-name-container-image">
-              <CustomImage src={"/Curtis_NoBG.png"} alt="positano" />
+              <CustomImage src={"/smile.png"} alt="positano" />
             </div>
             <div class="landing-name-text">
               <h1>CURTIS</h1>
@@ -188,7 +188,7 @@ export default function Home() {
               <h3></h3>
               <div style={{ borderRadius: "10px", overflow: "hidden" }}>
                 <Image
-                  src="/Rivian Logo Lockup copy.png"
+                  src="/Rivian Logo Gold.png"
                   width={400}
                   height={400}
                   objectFit="cover"
@@ -350,7 +350,7 @@ export default function Home() {
               <h3></h3>
               <div style={{ borderRadius: "10px", overflow: "hidden" }}>
                 <Image
-                  src={"/varsityPrep.jpg"}
+                  src={"/varsityPrep.png"}
                   width={300}
                   height={300}
                   objectFit="cover"
