@@ -167,6 +167,38 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="experience-element">
             <div className="experience-container-element">
+              <h1>Autonomous Infrastructure - Software Engineering Intern</h1>
+              <h2>Rivian Automotive</h2>
+              <h3>
+                {" "}
+                <strong className="bolded-inline-text"> </strong>{" "}
+                <strong className="bolded-inline-text"> </strong>
+                Incoming intern during the 2024 summer!
+              </h3>
+              {/* <h4>●</h4>
+              <h4>●</h4>
+              <h4>
+                ● <strong className="bolded-inline-text"></strong>{" "}
+              </h4>
+              <h4>●</h4>
+              <h4>
+                ● <strong className="bolded-inline-text"></strong>{" "}
+              </h4> */}
+
+              <h3></h3>
+              <div style={{ borderRadius: "10px", overflow: "hidden" }}>
+                <Image
+                  src="/Rivian Logo Lockup copy.png"
+                  width={400}
+                  height={400}
+                  objectFit="cover"
+                  alt="rivianlogo"
+                />
+              </div>
+              <h3></h3>
+            </div>
+            <div className="experience-line"></div>
+            <div className="experience-container-element">
               <h1>Software Engineering Intern</h1>
               <h2>Otherworld Computing Intership Summer 2023</h2>
               <h3>
