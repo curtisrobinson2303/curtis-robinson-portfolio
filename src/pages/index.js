@@ -44,7 +44,7 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="section-title">
             <div className="section-title-text">
-              <h1>HELLO</h1>
+              <h1> Welcome :)</h1>
               <h2>01</h2>
             </div>
           </div>
@@ -429,7 +429,7 @@ export default function Home() {
               </h3>
               <div style={{ borderRadius: "10px", overflow: "hidden" }}>
                 <Image
-                  src={"/MLTlogo.jpg"}
+                  src={"/MLTLogoT.png"}
                   width={400}
                   height={400}
                   alt="mltlogo"
