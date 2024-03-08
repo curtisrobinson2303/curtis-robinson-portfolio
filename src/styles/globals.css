@@ -730,10 +730,10 @@
   display: flex; /* Add display: flex; to center the content */
   align-items: center;
   justify-content: center;
-  background-color: rgb(37, 206, 209);
+  background-color: rgba(255, 0, 0, 0.7);
   width: 25%;
   transition: background-color 0.2s;
-  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  /* border: 0.5px solid rgba(255, 255, 255, 0.5); */
   /* Remove the commented out background-color property */
   /* background-color: rgba(236, 240, 241, 0.8); */
   /* When hovering, change the background color to red */
