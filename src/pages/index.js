@@ -17,11 +17,11 @@ export default function Home() {
         <div class="landing-name">
           <div class="landing-name-container">
             <div class="landing-name-container-image">
-              <CustomImage src={"/smile.png"} alt="positano" />
+              {/* <CustomImage src={"/smile.png"} alt="positano" /> */}
             </div>
             <div class="landing-name-text">
               <h1>CURTIS</h1>
-              <div className="hero-landing"></div>
+              {/* <div className="hero-landing"></div> */}
               <h1>ROBINSON</h1>
             </div>
           </div>

@@ -163,7 +163,7 @@
 
 .landing-name-text {
   padding-left: 25px;
-  text-align: left;
+  text-align: center;
   z-index: 1; /* Place text in front of the image */
 }
 
@@ -171,10 +171,8 @@
   font-size: 1500%;
   font-weight: bold;
   background: white;
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Add other styles as needed */
 }
 
 .landing-subtitle {
@@ -727,16 +725,12 @@
 .project-button {
   height: auto;
   border-radius: 10px;
-  display: flex; /* Add display: flex; to center the content */
+  display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 0, 0, 0.7);
   width: 25%;
   transition: background-color 0.2s;
-  /* border: 0.5px solid rgba(255, 255, 255, 0.5); */
-  /* Remove the commented out background-color property */
-  /* background-color: rgba(236, 240, 241, 0.8); */
-  /* When hovering, change the background color to red */
   &:hover {
     background-color: rgba(255, 255, 255, 0.144);
   }
@@ -748,7 +742,7 @@
 .project-button h1 {
   font-size: 1.5rem;
   font-weight: bold;
-  margin: 0; /* Remove any default margin that might affect centering */
+  margin: 0;
 }
 
 .projectsButton {
