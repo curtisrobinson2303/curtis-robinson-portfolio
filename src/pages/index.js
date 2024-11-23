@@ -44,7 +44,7 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="section-title">
             <div className="section-title-text">
-              <h1> Welcome :)</h1>
+              <h1> Welcome</h1>
               <h2>01</h2>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <h1>ABOUT ME</h1>
               <div className="line"></div>
               <h3>
-                🚀 I&#39;m Curtis, a 3rd-year student at Santa Clara University
+                🚀 I&#39;m Curtis, a 4th-year student at Santa Clara University
                 pursuing a degree in Electrical & Computer Engineering. My
                 passion lies in driving innovation in the world of technology,
                 and I&#39;m always ready to embrace the cutting edge. From
@@ -167,24 +167,54 @@ export default function Home() {
           <div className="spacer"></div>
           <div className="experience-element">
             <div className="experience-container-element">
-              <h1>Autonomous Infrastructure - Software Engineering Intern</h1>
-              <h2>Rivian Automotive</h2>
+              <h1>
+                Autonomous Infrastructure Embedded Software Engineering Intern
+              </h1>
+              <h2>Rivian Automotive, Palo Alto, CA | Summer 2024</h2>
               <h3>
-                {" "}
-                <strong className="bolded-inline-text"> </strong>{" "}
-                <strong className="bolded-inline-text"> </strong>
-                Incoming intern during the 2024 summer!
+                During my internship at Rivian Automotive, I contributed to the
+                development and optimization of autonomous systems, gaining
+                extensive experience in embedded software engineering and
+                manufacturing line improvements. I had the opportunity to{" "}
+                <strong className="bolded-inline-text">
+                  design and implement ADAS camera installation, calibration,
+                  and detection frameworks in C++,
+                </strong>{" "}
+                which optimized manufacturing line accuracy and reduced triage
+                time for incorrect installations by 97%. This experience
+                enhanced my technical expertise in{" "}
+                <strong className="bolded-inline-text">
+                  manufacturing process optimization
+                </strong>{" "}
+                and diagnostic tools. Additionally, I significantly improved
+                unit test code coverage for the autonomy control module’s
+                diagnostics component, utilizing UDS and DOIP protocols along
+                with modern testing frameworks. My contributions included
+                streamlining testing and debugging processes, as well as
+                developing innovative 3D-printed solutions to support R&D
+                efforts.
               </h3>
-              {/* <h4>●</h4>
-              <h4>●</h4>
               <h4>
-                ● <strong className="bolded-inline-text"></strong>{" "}
+                ● Designed and implemented ADAS camera installation,
+                calibration, and detection frameworks in C++, optimizing
+                manufacturing line accuracy and reducing triage time by 97%
               </h4>
-              <h4>●</h4>
               <h4>
-                ● <strong className="bolded-inline-text"></strong>{" "}
-              </h4> */}
-
+                ● Increased unit test code coverage of the autonomy control
+                module’s diagnostics component by 80%, utilizing UDS and DOIP
+                data transfer protocols, GoogleTest framework, and YAML
+                configurations
+              </h4>
+              <h4>
+                ● Developed 6 Bash scripts for log retrieval, flashing,
+                connection status monitoring, and low-level debugging, reducing
+                overall testing time by 57%
+              </h4>
+              <h4>
+                ● Created intuitive 3D-printed mounting brackets for 10 ADAS
+                camera calibration charts, streamlining R&D on autonomy test
+                benches
+              </h4>
               <h3></h3>
               <div style={{ borderRadius: "10px", overflow: "hidden" }}>
                 <Image
@@ -199,7 +229,7 @@ export default function Home() {
             </div>
             <div className="experience-line"></div>
             <div className="experience-container-element">
-              <h1>Software Engineering Intern</h1>
+              <h1>Embedded Software Engineering Intern</h1>
               <h2>Otherworld Computing Intership Summer 2023</h2>
               <h3>
                 Throughout my internship, I gained valuable experience and
@@ -269,7 +299,7 @@ export default function Home() {
             </div>
             <div className="experience-line"></div>
             <div className="experience-container-element">
-              <h1>Quality Assurance Intern</h1>
+              <h1>Embedded Software Quality Assurance Intern</h1>
               <h2>Otherworld Computing Intership Summer 2022</h2>
               <h3>
                 During my first year at Other World Computing, my role consisted
